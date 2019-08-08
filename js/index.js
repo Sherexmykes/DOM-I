@@ -71,9 +71,13 @@ navText.forEach(element => {
 
 const callToAction = document.querySelectorAll(".cta .cta-text h1");
 callToAction[0].textContent = siteContent["cta"]["h1"];
+callToAction[0].style.color = "purple";
+
 
 const ctaButton = document.querySelectorAll(".cta .cta-text button");
 ctaButton[0].textContent = siteContent["cta"]["button"];
+
+
 
 const img1 = document.getElementById("cta-img");
 img1.setAttribute('src', siteContent["cta"]["img-src"]);
